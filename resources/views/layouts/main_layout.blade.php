@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="/css/app.css">
 </head>
 <body>
-    Hol
+    @yield('content_movies')
+
+
 </body>
 </html>
