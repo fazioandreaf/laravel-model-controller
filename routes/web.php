@@ -16,6 +16,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Rout::get('pages/homepage','controller_movies@movies');
-Rout::get('pages/{id}','controller_movies@film')->name('film');
+Route::get('pages/homepage','controller_movies@movies');
+Route::get('pages/{id}','controller_movies@film')->name('film');
 
