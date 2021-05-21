@@ -12,4 +12,9 @@ class controller_movies extends Controller
         // dd($movies);
         return view('pages.homepage',compact('movies'));
     }
+    public function film($id){
+        $film= Film::findOrFail($id);
+        // dd($film);
+        return view('pages.film',compact('film'));
+    }
 }

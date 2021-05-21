@@ -17,5 +17,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('pages/homepage','controller_movies@movies');
-Route::get('pages/{id}','controller_movies@film')->name('film');
+Route::get('film/{id}','controller_movies@film')->name('film');
 

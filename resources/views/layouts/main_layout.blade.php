@@ -8,7 +8,12 @@
     <link rel="stylesheet" href="/css/app.css">
 </head>
 <body>
-    @yield('content_movies')
+    <div>
+        <ul>
+
+            @yield('content_movies')
+        </ul>
+    </div>
 
 
 </body>

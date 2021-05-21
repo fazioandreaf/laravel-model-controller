@@ -1,11 +1,14 @@
 @extends('layouts.main_layout')
 @section('content_movies')
 @foreach ($movies as $item)
-<div>
+<li>
+<a href="{{route('film',$item->id)}}">
 
     {{$item['id']}}
     {{$item['title']}}
-</div>
+</a>
+
+</li>
 @endforeach
     {{-- {{$movies[]}} --}}
 @endsection
