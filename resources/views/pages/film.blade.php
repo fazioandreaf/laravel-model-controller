@@ -4,5 +4,5 @@
 <li>{{$film ->nationality}}</li>
 <li>{{$film ->date}}</li>
 <li>{{$film ->vote}}</li>
-<a href="">Ritorna indietro</a>
+<a href="{{route('homepage')}}">Ritorna indietro</a>
 @endsection
